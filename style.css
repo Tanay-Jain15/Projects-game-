@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.top{
+    color:white;
+    background-color: rgb(0, 0, 46);
+    height:7rem;
+    line-height:7rem;
+    
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.073);
+}
+
+img{
+    height:150px;
+    width:150px;
+    /* object-fit: cover;   // becz it's already perfect  */
+    border-radius: 50%;     /*no need of this as our imgs are already in circle*/
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    gap:3rem;
+     margin-top: 5rem; 
+    margin-left: 35px;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(0,10,135,1) 100%, rgba(0,212,255,1) 100%);
+    color:white;
+    font-size: 2rem;
+    display: inline;
+    padding:1rem;
+    border-radius: 1rem;
+}
